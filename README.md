@@ -56,13 +56,18 @@ git clone https://github.com/MohammedHany-saqr/Advanced-Encryption-System.git
 
 cd Advanced-Encryption-System
 
-Run simulation (example using Icarus Verilog)
 
+2. **Run simulation (example using Icarus Verilog)**
 iverilog -o test_sub subBytes_tb.v subBytes.v sbox.v
 
 vvp test_sub
 
-View output in terminal or waveform (with GTKWave if .vcd used)
+3. **View output in terminal or waveform (with GTKWave if .vcd used)**
+
+
+
+
+
 
 📖 Reference
 
