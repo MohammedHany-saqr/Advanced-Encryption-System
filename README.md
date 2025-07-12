@@ -1,5 +1,6 @@
 # 🔐 Advanced Encryption System (AES) - Verilog Implementation
 
+![Advanced encryption standard (AES128, AES192, AES256)](images/aes.png)
 This repository contains a full RTL-level Verilog implementation of the **Advanced Encryption Standard (AES)** algorithm, following the official [FIPS PUB 197](https://csrc.nist.gov/publications/detail/fips/197/final) specification.
 
 The design supports **AES-128** encryption and decryption, with modular and synthesizable Verilog code suitable for simulation, testing, and FPGA/ASIC deployment.
