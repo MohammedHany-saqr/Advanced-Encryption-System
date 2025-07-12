@@ -61,11 +61,14 @@ vvp test_sub
 View output in terminal or waveform (with GTKWave if .vcd used)
 
 📖 Reference
+
 📄 NIST.FIPS.197.pdf — Official AES specification by NIST
 
 🔗 FIPS PUB 197 (NIST)
 
+
 📘 Suggested Tools
+
 🧪 Simulation: Icarus Verilog, ModelSim
 
 🖥️ Synthesis: Vivado, Quartus
