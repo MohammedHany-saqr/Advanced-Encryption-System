@@ -52,7 +52,7 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 ## 🚀 How to Simulate
 
 1. **Clone the repository**
-git clone https://github.com/your-username/Advanced-Encryption-System.git
+git clone https://github.com/MohammedHany-saqr/Advanced-Encryption-System.git
 cd Advanced-Encryption-System
 Run simulation (example using Icarus Verilog)
 
