@@ -67,6 +67,8 @@ View output in terminal or waveform (with GTKWave if .vcd used)
 🔗 FIPS PUB 197 (NIST)
 
 
+
+
 📘 Suggested Tools
 
 🧪 Simulation: Icarus Verilog, ModelSim
