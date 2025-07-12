@@ -28,6 +28,7 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 - **All transformations written 100% in Verilog HDL**
 
 ---
+![Working Images](images/fpga.png)
 
 ## 📁 File Structure
 
