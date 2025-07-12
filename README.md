@@ -30,7 +30,6 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 
 ## 📁 File Structure
 
-.
 ├── addRoundKey.v # XORs state with round key
 ├── Decrypt.v # AES decryption top module
 ├── EDAES.v # AES top-level wrapper
@@ -48,10 +47,6 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 ├── subBytes_tb.v # Testbench for SubBytes
 ├── README.md # This file
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 How to Simulate
@@ -62,9 +57,6 @@ git clone https://github.com/your-username/Advanced-Encryption-System.git
 cd Advanced-Encryption-System
 Run simulation (example using Icarus Verilog)
 
-bash
-Copy
-Edit
 iverilog -o test_sub subBytes_tb.v subBytes.v sbox.v
 vvp test_sub
 View output in terminal or waveform (with GTKWave if .vcd used)
