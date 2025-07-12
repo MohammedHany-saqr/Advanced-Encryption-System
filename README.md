@@ -32,27 +32,26 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 
 - ├── addRoundKey.v # XORs state with round key
 - ├── Decrypt.v # AES decryption top module
-├── EDAES.v # AES top-level wrapper
-├── Encryption.v # AES encryption top module
-├── inverseMixColumns.v # Inverse MixColumns transformation
-├── inverseSbox.v # Inverse S-box lookup table
-├── inverseShiftRows.v # Inverse ShiftRows transformation
-├── inverseSubBytes.v # Inverse SubBytes transformation
-├── KeyExpansion.v # AES key schedule expansion
-├── MixColumns.v # MixColumns transformation
-├── NIST.FIPS.197.pdf # Official AES specification (FIPS 197)
-├── sbox.v # S-box lookup table
-├── shiftRows.v # ShiftRows transformation
-├── subBytes.v # SubBytes transformation
-├── subBytes_tb.v # Testbench for SubBytes
-├── README.md # This file
+- ├── EDAES.v # AES top-level wrapper
+- ├── Encryption.v # AES encryption top module
+- ├── inverseMixColumns.v # Inverse MixColumns transformation
+- ├── inverseSbox.v # Inverse S-box lookup table
+- ├── inverseShiftRows.v # Inverse ShiftRows transformation
+- ├── inverseSubBytes.v # Inverse SubBytes transformation
+- ├── KeyExpansion.v # AES key schedule expansion
+- ├── MixColumns.v # MixColumns transformation
+- ├── NIST.FIPS.197.pdf # Official AES specification (FIPS 197)
+- ├── sbox.v # S-box lookup table
+- ├── shiftRows.v # ShiftRows transformation
+- ├── subBytes.v # SubBytes transformation
+- ├── subBytes_tb.v # Testbench for SubBytes
+- ├── README.md # This file
 
 ---
 
 ## 🚀 How to Simulate
 
 1. **Clone the repository**
-```bash
 git clone https://github.com/your-username/Advanced-Encryption-System.git
 cd Advanced-Encryption-System
 Run simulation (example using Icarus Verilog)
