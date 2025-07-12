@@ -31,7 +31,7 @@ The design supports **AES-128** encryption and decryption, with modular and synt
 ## 📁 File Structure
 
 - ├── addRoundKey.v # XORs state with round key
-├── Decrypt.v # AES decryption top module
+- ├── Decrypt.v # AES decryption top module
 ├── EDAES.v # AES top-level wrapper
 ├── Encryption.v # AES encryption top module
 ├── inverseMixColumns.v # Inverse MixColumns transformation
